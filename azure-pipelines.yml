@@ -1,4 +1,7 @@
 # HTML
+- task: CMake@1
+  inputs:
+    cmakeArgs: 
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
